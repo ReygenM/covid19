@@ -36,7 +36,7 @@ render(){
     }
      return (
          <View style={styles.container}>
-            <View style={{marginTop:30, backgroundColor:'grey'}}>
+            <View style={{marginTop:10}}>
                 <Text style={styles.Global}>GLOBAL</Text>
             </View>
             <View style={styles.containerValue}>
@@ -69,17 +69,17 @@ const styles = StyleSheet.create({
     },
     confirmedContainer:{
         marginLeft:25,
-        backgroundColor:'orange',
+        backgroundColor:'#ffa500',
         borderWidth:1
     },
     recoveredContainer:{
         marginLeft:30,
-        backgroundColor:'green',
+        backgroundColor:'#2e8b57',
         borderWidth:1
     },
     deathContainer:{
         marginLeft:35,
-        backgroundColor:'red',
+        backgroundColor:'#ff6347',
         borderWidth:1
     },
     deathValue:{
@@ -109,8 +109,7 @@ const styles = StyleSheet.create({
     Global:{
       alignSelf: 'center',
       fontWeight: 'bold',
-      fontSize:36,
-      fontFamily:'sans-serif-light'
+      fontSize:36
     },
   
     confirmed:{
